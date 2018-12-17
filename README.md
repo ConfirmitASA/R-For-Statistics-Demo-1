@@ -1,0 +1,5 @@
+DEMO CODE
+
+The examples provided within are to be used for demonstration purposes and is provided "AS IS" without warranty or any kind, express or implied.
+
+To run the examples, please update the Configuration.R file with the required api login details, survey projectid and if required the Database Designer parameters.  

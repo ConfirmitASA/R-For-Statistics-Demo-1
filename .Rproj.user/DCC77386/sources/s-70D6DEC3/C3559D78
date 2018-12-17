@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1545058020851.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C3559D78",
+    "lastKnownWriteTime" : 1545058591,
+    "last_content_update" : 1545058591587,
+    "path" : "C:/Development/SourceCode/Nordic/CustomCode/Gamesys/Confirmit.Gamesys/DataWithLabels.Test.R",
+    "project_path" : "DataWithLabels.Test.R",
+    "properties" : {
+        "cursorPosition" : "30,12",
+        "scrollLine" : "0",
+        "tempName" : "Untitled3"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

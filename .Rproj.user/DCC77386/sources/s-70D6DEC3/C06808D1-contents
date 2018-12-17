@@ -1,0 +1,37 @@
+source("Login.R")
+source("SingleQuestionDetails.R")
+source("SurveyData.R")
+source("DatabaseDesigner.R")
+
+# LIST all columns you would like returned else set columns = "" to return all
+columns = "<string>Rating</string>
+           <string>Games</string>"
+
+# You can optionally create a filter expression to restrict the number of records returned
+filter = "NOT ISNULL(Games)"
+
+# Get default survey data, according to columns and filter specified
+surveyData <- confirmit.getData(columns, filter)
+
+# Get details of a SINGLE question type e.g Chat_Feedback
+RatingDetails = confirmit.getQuestionLabels("Rating")
+
+# Merge the resulting sets of data
+dfWithLabels = merge(x = surveyData, y = RatingDetails, by.x = "Rating", 
+                     by.y = "Y_code", all.x = TRUE)
+
+# You may need to repeat the above 2 for each SINGLE question needed
+
+# Get Promotion list from Database Designer
+promotionNames <- databaseDesigner.getContent(promotionNameTableId, promotionLabel, pageCount)
+
+dfWithLabels = merge(x = dfWithLabels, y = promotionNames, by.x = "Promotion_Name", 
+                     by.y = "Id", all.x = TRUE)
+
+
+# Get Game list from Database Designer
+gameNames <- databaseDesigner.getContent(gameNameTableId, gameLabel, pageCount)
+
+dfWithLabels = merge(x = dfWithLabels, y = gameNames, by.x = "Game_Name", 
+                     by.y = "Id", all.x = TRUE)
+

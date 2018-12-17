@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1536333631660.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7E65C69C",
+    "lastKnownWriteTime" : 1545058814,
+    "last_content_update" : 1545058814980,
+    "path" : "C:/Development/SourceCode/Nordic/CustomCode/Gamesys/Confirmit.Gamesys/Configuration.R",
+    "project_path" : "Configuration.R",
+    "properties" : {
+        "cursorPosition" : "17,79",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

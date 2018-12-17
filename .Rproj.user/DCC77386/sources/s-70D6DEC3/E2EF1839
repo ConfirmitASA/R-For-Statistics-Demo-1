@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541668649268.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4046221689",
+    "id" : "E2EF1839",
+    "lastKnownWriteTime" : 1545056559,
+    "last_content_update" : 1545056559921,
+    "path" : "C:/Development/SourceCode/Nordic/CustomCode/Gamesys/Confirmit.Gamesys/DatabaseDesigner.R",
+    "project_path" : "DatabaseDesigner.R",
+    "properties" : {
+        "cursorPosition" : "27,2",
+        "scrollLine" : "8",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

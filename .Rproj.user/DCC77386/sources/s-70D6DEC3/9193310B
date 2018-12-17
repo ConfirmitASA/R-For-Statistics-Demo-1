@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541668665504.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "9193310B",
+    "lastKnownWriteTime" : 1536333325,
+    "last_content_update" : 1536333325,
+    "path" : "C:/Development/SourceCode/Nordic/CustomCode/Gamesys/Confirmit.Gamesys/SurveyData.R",
+    "project_path" : "SurveyData.R",
+    "properties" : {
+        "cursorPosition" : "45,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
